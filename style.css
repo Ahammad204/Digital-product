@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+.navbar{
+    background-color:#0D0A0C;
+    color: bisque;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+.menubar{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+   
+}
+.menu{
+    padding: 10px;
+    margin-right: 17px;
+    font-size: 18px;
+
+}
+.menu:hover{
+    color: rgb(74, 74, 128);
+    cursor: pointer;
+}
+
+.navimg{
+    width: 100px;
+    padding: 5px;
+}
+.main-container{
+    background-image: url(./images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    height: 100vh;
+}
+.contain-pic{
+    width: 300px;
+}
+.main-container{
+    display: flex;
+    flex-direction: row-reverse;
+    color: azure;
+    justify-content: space-around;
+    align-items: center;
+}
+.arti{
+    text-align: left;
+}
+.titler{
+    font-size: 54px;
+    font-weight: bold;
+    padding: 30px;
+}
+.pera{
+    font-size: 20px;
+   padding-bottom: 15px;
+}
+.btn{
+    background-color: blueviolet;
+    color: beige;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(4, 4, 8);
+}
+.about-us{
+   display: flex;
+   justify-content: space-around;
+}
+.about-img{
+        width: 300px;
+}
+.he{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+.title{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.lora{
+   padding-bottom: 10px;
+}
+.btn2{
+    background-color: blueviolet;
+    color: beige;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    text-align: center;
+    cursor: pointer;
+}
+.btn2:hover{
+    color: rgb(4, 4, 8);
+}
+.our-services{
+  
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 20px;
+    background-image: url('./images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    flex-wrap: wrap;
+
+}
+.imgr{
+    width: 60px;
+}
+.art{
+   
+    color: antiquewhite;
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+
+}
+.ho{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.digart{
+    justify-content: space-around;
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 4px  2px 105px gray;
+    border-radius: 10px;
+
+}
+.btn3{
+    background-color: black;
+    color: beige;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.btn3:hover{
+    color: rgb(158, 197, 102);
+}
